@@ -2,11 +2,11 @@
 import React from 'react'
 
 class Bomb React.component{
-  constructor(initialCount){
+  constructor(){
     super()
 
     this.state = {
-      secondsLeft: initialCount
+      secondsLeft: props.nitialCount
     }
   }
 }
